@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+/* tailwind.css or index.css */
+
+@layer base {
+  :root {
+    --netflix-black: #141414;
+    --netflix-dark: #181818;
+    --netflix-red: #e50914;
+    --netflix-white: #f5f5f1;
+    --netflix-gray: #808080;
+    --netflix-card: #2f2f2f;
+  }
+
+  body {
+    background-color: var(--netflix-black);
+    color: var(--netflix-white);
+  }
+}
+
+@layer components {
+  .bg-netflix-black {
+    background-color: var(--netflix-black);
+  }
+
+  .bg-netflix-dark {
+    background-color: var(--netflix-dark);
+  }
+
+  .bg-netflix-red {
+    background-color: var(--netflix-red);
+  }
+
+  .bg-netflix-card {
+    background-color: var(--netflix-card);
+  }
+
+  .text-netflix-white {
+    color: var(--netflix-white);
+  }
+
+  .text-netflix-red {
+    color: var(--netflix-red);
+  }
+
+  .text-netflix-gray {
+    color: var(--netflix-gray);
+  }
+
+  .border-netflix-gray {
+    border-color: var(--netflix-gray);
+  }
+}
