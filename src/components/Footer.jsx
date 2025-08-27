@@ -36,7 +36,7 @@ const Footer = () => {
               <button
                 key={item}
                 onClick={() => scrollToSection(item)}
-                className="text-netflix-white hover:text-netflix-red transition-colors duration-300 capitalize"
+                className="text-netflix-white hover:text-netflix-red transition-colors duration-300 capitalize cursor-pointer"
               >
                 {item}
               </button>
