@@ -61,7 +61,7 @@ const Contact = () => {
                 className="space-y-4 md:space-y-6"
               >
                 {/* Hidden input required by Netlify */}
-                <input type="hidden" name="form-name" value="ContactUS" />
+                <input type="hidden" name="ContactUS" value="ContactUS" />
 
                 <div className="relative">
                   <label
