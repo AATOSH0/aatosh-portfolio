@@ -55,9 +55,8 @@ const Contact = () => {
               </h3>
 
               <form
-                name="ContactUS"
-                method="POST"
-                data-netlify="true"
+                name="contact"
+                netlify
                 className="space-y-4 md:space-y-6"
               >
                 {/* Hidden input required by Netlify */}
