@@ -8,6 +8,7 @@ import Projects from "./components/Projects";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import ExperienceSection from "./components/ExperienceSection";
 
 const App = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -37,6 +38,7 @@ const App = () => {
     <div className="App bg-netflix-black text-netflix-white min-h-screen">
       <Header />
       <Hero />
+      <ExperienceSection />
       <Skills />
       <Projects />
       <About />
