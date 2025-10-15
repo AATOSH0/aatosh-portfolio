@@ -38,24 +38,24 @@ export const aboutData = {
 
     {
       label: "Mobile",
-      href: "tel:+919301265561",
+      href: "tel:+917610183426",
       icon: FaPhone,
       bgColor: "bg-green-600",
       hoverColor: "hover:bg-green-700",
     },
     {
       label: "WhatsApp",
-      href: "https://wa.me/919301265561",
+      href: "https://wa.me/917610183426",
       icon: FaWhatsapp,
       bgColor: "bg-green-600",
       hoverColor: "hover:bg-green-700",
     },
-    {
-      label: "Instagram",
-      href: "https://www.instagram.com/aatosh0/",
-      icon: FaInstagram,
-      bgColor: "bg-pink-600",
-      hoverColor: "hover:bg-pink-700",
-    },
+    // {
+    //   label: "Instagram",
+    //   href: "https://www.instagram.com/aatosh0/",
+    //   icon: FaInstagram,
+    //   bgColor: "bg-pink-600",
+    //   hoverColor: "hover:bg-pink-700",
+    // },
   ],
 };
